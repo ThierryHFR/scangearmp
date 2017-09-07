@@ -639,7 +639,7 @@ static CNMSInt32 Change_RAW_to_PNG(
 	}
 	
 	plibpngapi->p_png_set_write_fn( write_ptr, (png_voidp)&dstFd, write_data_for_png, NULL );
-	plibpngapi->p_png_set_compression_level( write_ptr, Z_BEST_SPEED );	/* maximum speed */
+	plibpngapi->p_png_set_compression_level( write_ptr, 1 );	/* maximum speed */
 	switch( bpp )
 	{
 		case  1:

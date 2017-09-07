@@ -736,7 +736,7 @@ CNMSInt32 CnmsPDF_WriteRowData( CNMSVoid *pw, CNMSLPSTR buf )
 	/* initialize zlib */
 	if ( !p->zlib_init ) {
 		CnmsSetMem( (CNMSLPSTR)z, 0, sizeof( z_stream ) );
-		if ( ( z_ret = deflateInit( z, Z_BEST_SPEED ) ) != Z_OK ) {	/* maximum speed */
+		if ( ( z_ret = deflateInit( z, 1 ) ) != Z_OK ) {	/* maximum speed */
 			DBGMSG( "[CnmsPDF_WriteRowData]Error is occured in deflateInit.\n" );
 			goto	EXIT;
 		}
