@@ -161,5 +161,7 @@ ATTR{idVendor}=="04a9", ATTR{idProduct}=="1775", MODE="666"
 ATTR{idVendor}=="04a9", ATTR{idProduct}=="177b", MODE="666"
 #E400 series
 ATTR{idVendor}=="04a9", ATTR{idProduct}=="177a", MODE="666"
+#G2000 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1795", MODE="666"
 
 LABEL="canon_mfp_end"
