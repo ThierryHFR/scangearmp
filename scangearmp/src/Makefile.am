@@ -44,7 +44,7 @@ scangearmp_SOURCES = \
 	cnmsnetwork.c cnmsnetwork.h
 
 
-scangearmp_LDADD = @PACKAGE_LIBS@ -lcncpmsui -lsane-canon_mfp -lcncpnet $(INTLLIBS) -ldl
+scangearmp_LDADD = @PACKAGE_LIBS@ -lcncpmsui -lsane-canon_mfp -lcncpnet $(INTLLIBS) -ldl -lm
 
 scangearmp_CFLAGS = -DV_MAJOR=1 -DV_MINOR=0
 
