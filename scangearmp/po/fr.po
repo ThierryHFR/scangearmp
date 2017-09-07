@@ -1,0 +1,1110 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2014
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp. 2.30\n"
+"POT-Creation-Date: 2013-09-30 18:15+0900\n"
+"PO-Revision-Date: 2013-10-01 15:41+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:165 src/interface.c:1718 src/interface.c:1788
+#: src/interface.c:3234 src/interface.c:3298 src/interface.c:3362
+#: src/interface.c:3452 src/interface.c:3636 src/interface.c:3717
+#: src/interface.c:3781
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:189
+msgid "Clear Preview"
+msgstr "Effacer aperçu"
+
+#: src/interface.c:193
+msgid "About"
+msgstr "A propos de"
+
+#: src/interface.c:251
+msgid "Select Source"
+msgstr "Sélectionner source"
+
+#: src/interface.c:288
+msgid "Display Preview Image"
+msgstr "Afficher l'aperçu de l'image"
+
+#: src/interface.c:295 src/interface.c:801
+msgid "Preview"
+msgstr "Aperçu"
+
+#: src/interface.c:319
+msgid "Destination"
+msgstr "Destination"
+
+#: src/interface.c:362
+msgid "Output Size"
+msgstr "Format sortie"
+
+#: src/interface.c:405
+msgid "Adjust cropping frames"
+msgstr "Ajuster des cadres de découpe"
+
+#: src/interface.c:460
+msgid "Perform Scan"
+msgstr "Lancer la numérisation"
+
+#: src/interface.c:467 src/interface.c:797
+msgid "Scan"
+msgstr "Numériser"
+
+#: src/interface.c:488
+msgid "Basic Mode"
+msgstr "Mode de base"
+
+#: src/interface.c:508
+msgid "Select Source :"
+msgstr "Sélectionner source :"
+
+#: src/interface.c:521
+msgid "Color Mode :"
+msgstr "Mode couleur :"
+
+#: src/interface.c:540 src/interface.c:645
+msgid "Width :"
+msgstr "Largeur :"
+
+#: src/interface.c:561 src/interface.c:663
+msgid "Height :"
+msgstr "Hauteur :"
+
+#: src/interface.c:584
+msgid "Paper Size :"
+msgstr "Format papier :"
+
+#: src/interface.c:597
+msgid "Binding Location :"
+msgstr "Emplacement de la reliure :"
+
+#: src/interface.c:610
+msgid "Input Settings"
+msgstr "Paramètres d'entrée"
+
+#: src/interface.c:635
+msgid "dpi"
+msgstr "ppp"
+
+#: src/interface.c:698
+msgid "Output Resolution :"
+msgstr "Résolution :"
+
+#: src/interface.c:705
+msgid "Output Size :"
+msgstr "Format sortie :"
+
+#: src/interface.c:718
+msgid "Data Size :"
+msgstr "Format des données :"
+
+#: src/interface.c:733
+msgid "Output Settings"
+msgstr "Paramètres de sortie"
+
+#: src/interface.c:751
+msgid "Unsharp Mask :"
+msgstr "Accentuation de la netteté :"
+
+#: src/interface.c:764
+msgid "Descreen :"
+msgstr "Elimination moiré :"
+
+#: src/interface.c:775
+msgid "Image Settings"
+msgstr "Paramètres d'image"
+
+#: src/interface.c:825 src/interface.c:1398 src/interface.c:2033
+#: src/interface.c:2449 src/interface.c:2681 src/interface.c:3155
+#: src/interface.c:4026
+msgid "Defaults"
+msgstr "Défaut"
+
+#: src/interface.c:829 src/interface.c:3039
+msgid "Threshold"
+msgstr "Seuil"
+
+#: src/interface.c:832 src/interface.c:2778
+msgid "Final Review"
+msgstr "Contrôle final"
+
+#: src/interface.c:836 src/interface.c:2597
+msgid "Tone Curve Settings"
+msgstr "Paramètres de la courbe de tonalité"
+
+#: src/interface.c:840 src/interface.c:2186
+msgid "Histogram"
+msgstr "Histogramme"
+
+#: src/interface.c:844 src/interface.c:1875
+msgid "Brightness/Contrast"
+msgstr "Luminosité/contraste"
+
+#: src/interface.c:848
+msgid "Advanced Mode"
+msgstr "Mode avancé"
+
+#: src/interface.c:856
+msgid "Preferences..."
+msgstr "Préférences..."
+
+#: src/interface.c:860 src/interface.c:2038 src/interface.c:2454
+#: src/interface.c:2686 src/interface.c:2947 src/interface.c:3160
+msgid "Close"
+msgstr "Fermer"
+
+#: src/interface.c:1194
+msgid "Preferences"
+msgstr "Préférences"
+
+#: src/interface.c:1221 src/interface.c:4190
+msgid "Auto Power Settings"
+msgstr "Paramètres d'alimentation automatique"
+
+#: src/interface.c:1250 src/interface.c:1305
+msgid "Settings..."
+msgstr "Paramètres..."
+
+#: src/interface.c:1268
+msgid "Quiet Mode"
+msgstr "Mode silencieux"
+
+#: src/interface.c:1276 src/interface.c:3874
+msgid "Quiet Settings"
+msgstr "Paramètres silencieux"
+
+#: src/interface.c:1323
+msgid "Calibration Settings"
+msgstr "Paramètres d'étalonnage"
+
+#: src/interface.c:1333
+msgid "Execute at Every Scan :"
+msgstr "Exécuter à chaque numérisation :"
+
+#: src/interface.c:1347
+msgid "Scanner"
+msgstr "Scanner"
+
+#: src/interface.c:1356
+msgid "Recommended"
+msgstr "Recommandés"
+
+#: src/interface.c:1362
+msgid "None"
+msgstr "Aucun"
+
+#: src/interface.c:1376
+msgid "Monitor Gamma :"
+msgstr "Gamma moniteur :"
+
+#: src/interface.c:1418
+msgid "Color Settings"
+msgstr "Paramètres de couleur"
+
+#: src/interface.c:1428 src/interface.c:1579 src/interface.c:1742
+#: src/interface.c:1812 src/interface.c:3322 src/interface.c:3410
+#: src/interface.c:3481 src/interface.c:3670 src/interface.c:3744
+#: src/interface.c:3805 src/interface.c:4016 src/interface.c:4237
+msgid "OK"
+msgstr "OK"
+
+#: src/interface.c:1433 src/interface.c:1584 src/interface.c:1674
+#: src/interface.c:1747 src/interface.c:3486 src/interface.c:3675
+#: src/interface.c:3810 src/interface.c:4021 src/interface.c:4242
+#: src/cnmsstrings.h:166
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/interface.c:1535
+msgid "Select Scanner"
+msgstr "Sélectionner le scanner"
+
+#: src/interface.c:1552
+msgid "No scanners detected."
+msgstr "Aucun scanner détecté."
+
+#: src/interface.c:1566
+msgid "Update Scanner List"
+msgstr "Mettre à jour la liste des scanners"
+
+#: src/interface.c:1636
+msgid "Save Scan Image"
+msgstr "Enregistrer image numérisée"
+
+#: src/interface.c:1647
+msgid "Save as type:"
+msgstr "Enregistrer sous le type :"
+
+#: src/interface.c:1669
+msgid "Save"
+msgstr "Enregistrer"
+
+#: src/interface.c:1734
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"Nom de fichier déjà existant.\n"
+"Voulez-vous l’écraser ?"
+
+#: src/interface.c:1887 src/interface.c:2198 src/interface.c:2609
+#: src/interface.c:2790
+msgid "Channel :"
+msgstr "Canal :"
+
+#: src/interface.c:1940
+msgid "Brightness :"
+msgstr "Luminosité :"
+
+#: src/interface.c:1958
+msgid "Dark"
+msgstr "Sombre"
+
+#: src/interface.c:1963
+msgid "Bright"
+msgstr "Lumineux"
+
+#: src/interface.c:1989
+msgid "Contrast :"
+msgstr "Contraste :"
+
+#: src/interface.c:2007
+msgid "Low"
+msgstr "Faible"
+
+#: src/interface.c:2012
+msgid "High"
+msgstr "Elevé"
+
+#: src/interface.c:2374
+msgid "Gray Balance :"
+msgstr "Équilibre des gris :"
+
+#: src/interface.c:2661
+msgid "Select Tone Curve :"
+msgstr "Sélectionner la courbe de tonalité :"
+
+#. Tone Curve strings
+#: src/interface.c:2672 src/cnmsstrings.h:133
+msgid "No correction"
+msgstr "Pas de correction"
+
+#: src/interface.c:2673 src/cnmsstrings.h:134
+msgid "Overexposure"
+msgstr "Surexposition"
+
+#: src/interface.c:2674 src/cnmsstrings.h:135
+msgid "Underexposure"
+msgstr "Sous-exposition"
+
+#: src/interface.c:2675 src/cnmsstrings.h:136
+msgid "High contrast"
+msgstr "Contraste élevé"
+
+#: src/interface.c:2847
+msgid "Original"
+msgstr "Original"
+
+#: src/interface.c:2897
+msgid "Current"
+msgstr "Actuel"
+
+#: src/interface.c:3097
+msgid "Threshold Level :"
+msgstr "La valeur du seuil :"
+
+#: src/interface.c:3113
+msgid "Light"
+msgstr "Clair"
+
+#: src/interface.c:3118
+msgid " Dark"
+msgstr "Sombre"
+
+#: src/interface.c:4205
+msgid "Auto Power On :"
+msgstr "Alim. auto activée :"
+
+#: src/interface.c:4213
+msgid "Auto Power Off :"
+msgstr "Alim. auto désactivée :"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#: src/cnmsstrings.h:36
+#, c-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: src/cnmsstrings.h:38
+#, c-format
+msgid "Copyright CANON INC. %s-%s"
+msgstr "Copyright CANON INC. %s-%s"
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:50
+msgid "Photo (Color)"
+msgstr "Photo (couleur)"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:51
+msgid "Magazine (Color)"
+msgstr "Magazine (couleur)"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:52
+msgid "Newspaper(B&W)"
+msgstr "Journal (N/B)"
+
+#: src/cnmsstrings.h:53
+msgid "Document (Grayscale)"
+msgstr "Document (nuances de gris)"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:54
+msgid "Newspaper (Grayscale)"
+msgstr "Journal (nuances de gris)"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:55
+msgid "Document (Color) ADF Simplex"
+msgstr "Document (couleur) CAD recto"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:56
+msgid "Document (Grayscale) ADF Simplex"
+msgstr "Document (niveaux de gris) CAD recto"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:57
+msgid "Document (Color) ADF Duplex"
+msgstr "Document (couleur) CAD recto verso"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:58
+msgid "Document (Grayscale) ADF Duplex"
+msgstr "Document (niveaux de gris) CAD recto verso"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:59
+msgid "Document (Color)"
+msgstr "Document (couleur)"
+
+#. Ver.1.80 added
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:62
+msgid "Print(300dpi)"
+msgstr "Impression (300 ppp)"
+
+#: src/cnmsstrings.h:63
+msgid "Image display(150dpi)"
+msgstr "Affichage de l'image (150 ppp)"
+
+#: src/cnmsstrings.h:64
+msgid "OCR(300dpi)"
+msgstr "OCR (300 ppp)"
+
+#: src/cnmsstrings.h:65
+msgid "Print"
+msgstr "Impression"
+
+#: src/cnmsstrings.h:66
+msgid "Image display"
+msgstr "Affichage de l'image"
+
+#: src/cnmsstrings.h:67
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:70
+msgid "Flexible"
+msgstr "Flexible"
+
+#: src/cnmsstrings.h:71
+msgid "Card"
+msgstr "Carte"
+
+#: src/cnmsstrings.h:72
+msgid "L Landscape"
+msgstr "L Paysage"
+
+#: src/cnmsstrings.h:73
+msgid "L Portrait"
+msgstr "L Portrait"
+
+#: src/cnmsstrings.h:74
+msgid "2L Landscape"
+msgstr "2L Paysage"
+
+#: src/cnmsstrings.h:75
+msgid "2L Portrait"
+msgstr "2L Portrait"
+
+#: src/cnmsstrings.h:76
+msgid "4\" x 6\" Landscape"
+msgstr "10x15cm Paysage"
+
+#: src/cnmsstrings.h:77
+msgid "4\" x 6\" Portrait"
+msgstr "10x15cm Portrait"
+
+#: src/cnmsstrings.h:78
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:79
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:80
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:81
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:82
+msgid "Letter"
+msgstr "Lettre"
+
+#: src/cnmsstrings.h:83
+msgid "Legal"
+msgstr "Légal"
+
+#: src/cnmsstrings.h:84
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:85
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:86
+msgid "128 x 128 pixels"
+msgstr "128 x 128 pixels"
+
+#: src/cnmsstrings.h:87
+msgid "640 x 480 pixels"
+msgstr "640 x 480 pixels"
+
+#: src/cnmsstrings.h:88
+msgid "800 x 600 pixels"
+msgstr "800 x 600 pixels"
+
+#: src/cnmsstrings.h:89
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 pixels"
+
+#: src/cnmsstrings.h:90
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 pixels"
+
+#: src/cnmsstrings.h:91
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 pixels"
+
+#: src/cnmsstrings.h:92
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 pixels"
+
+#: src/cnmsstrings.h:93
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 pixels"
+
+#: src/cnmsstrings.h:94
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 pixels"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:96
+msgid "Full Platen"
+msgstr "Vitre complète"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:99
+msgid "Platen"
+msgstr "Vitre"
+
+#: src/cnmsstrings.h:100
+msgid "Document (ADF Simplex)"
+msgstr "Document (CAD recto)"
+
+#: src/cnmsstrings.h:101
+msgid "Document (ADF Duplex)"
+msgstr "Document (CAD recto verso)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:104
+msgid "Long Edge"
+msgstr "Bord long"
+
+#: src/cnmsstrings.h:105
+msgid "Short Edge"
+msgstr "Bord court"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:108
+msgid "Color"
+msgstr "Couleur"
+
+#: src/cnmsstrings.h:109
+msgid "Color(Documents)"
+msgstr "Couleur (documents)"
+
+#. add space
+#: src/cnmsstrings.h:111
+msgid "Grayscale "
+msgstr "Niveaux de gris"
+
+#: src/cnmsstrings.h:112
+msgid "Black and White"
+msgstr "Noir et blanc"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:115
+msgid "pixels"
+msgstr "pixels"
+
+#: src/cnmsstrings.h:116
+msgid "inches"
+msgstr "pouces"
+
+#: src/cnmsstrings.h:117
+msgid "centimeters"
+msgstr "centimètres"
+
+#: src/cnmsstrings.h:118
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:121
+msgid "ON"
+msgstr "Activé"
+
+#: src/cnmsstrings.h:122
+msgid "OFF"
+msgstr "Désactivé"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:126
+msgid "Master"
+msgstr "Principal"
+
+#: src/cnmsstrings.h:127
+msgid "Red"
+msgstr "Rouge"
+
+#: src/cnmsstrings.h:128
+msgid "Green"
+msgstr "Vert"
+
+#: src/cnmsstrings.h:129
+msgid "Blue"
+msgstr "Bleu"
+
+#: src/cnmsstrings.h:130
+msgid "Grayscale"
+msgstr "Niveaux de gris"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:139
+msgid "The file name is not specified."
+msgstr "Le nom du fichier n’est pas spécifié."
+
+#: src/cnmsstrings.h:140
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"Vous n’êtes pas autorisé à accéder au fichier spécifié.\n"
+"Spécifiez un autre nom de fichier ou enregistrez le fichier dans un autre \n"
+"répertoire."
+
+#: src/cnmsstrings.h:141
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"Le répertoire spécifié n’existe pas ou vous n’êtes pas autorisé à y accéder.\n"
+"Enregistrez le fichier dans un autre répertoire."
+
+#: src/cnmsstrings.h:142
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"Nom de fichier incorrect.\n"
+"Spécifiez un autre nom de fichier."
+
+#. child_dialog.c
+#: src/cnmsstrings.h:145
+msgid "Do not display this message again."
+msgstr "Ne plus afficher ce message."
+
+#: src/cnmsstrings.h:147
+msgid "Resets the settings to default."
+msgstr "Restaure la valeur par défaut des paramètres."
+
+#: src/cnmsstrings.h:148
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"Vous tentez de numériser une image dépassant 100 Mo. La numérisation d'images \n"
+"de cette taille impose une charge considérable à l'ordinateur et certaines \n"
+"applications peuvent être incapables de charger l'image. \n"
+"Voulez-vous vraiment continuer ?"
+
+#: src/cnmsstrings.h:149
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"Si le découpage, le format ou la résolution de sortie est supérieur \n"
+"à %s x %s pixels, la numérisation est impossible."
+
+#: src/cnmsstrings.h:150
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr ""
+"Si vous conservez l'option Accentuation sélectionnée, il est possible que la \n"
+"fonction Elimination moiré ne puisse s'exécuter."
+
+#: src/cnmsstrings.h:151
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"Le CAD (chargeur automatique de documents) est vide. \n"
+"Placez-y du papier."
+
+#: src/cnmsstrings.h:152
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"Impossible de trouver les scanners disponibles.\n"
+"\n"
+"Le câble est peut-être débranché ou le scanner hors tension.\n"
+"Vérifiez à nouveau l'état du scanner, puis réessayez."
+
+#: src/cnmsstrings.h:153
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"Vous tentez de numériser une image de grande taille.\n"
+"Réduisez la taille de l'image ou la résolution de sortie lorsque\n"
+"vous voulez numériser cette image."
+
+#: src/cnmsstrings.h:154
+msgid "Apply settings to printer?"
+msgstr "Appliquer les paramètres à l'imprimante ?"
+
+#: src/cnmsstrings.h:155
+msgid ""
+"Apply the setting to printer?\n"
+"If the printer is connected to a network, it will not turn off automatically "
+"even if Auto Power Off is set."
+msgstr ""
+"Appliquer le paramètre à l'imprimante ?\n"
+"Si l'imprimante est connectée à un réseau, elle ne sera pas mise hors tension\n"
+"automatiquement même si le paramètre Alim. auto désactivée est défini."
+
+#. progress_bar.c
+#: src/cnmsstrings.h:158
+msgid "Scanning..."
+msgstr "Numérisation..."
+
+#: src/cnmsstrings.h:159
+msgid "Saving..."
+msgstr "Enregistrement en cours..."
+
+#: src/cnmsstrings.h:160
+msgid "Transferring..."
+msgstr "Transfert en cours..."
+
+#: src/cnmsstrings.h:161
+#, c-format
+msgid "%d page(s)"
+msgstr "%d page(s)"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:163
+msgid "Searching..."
+msgstr "Recherche en cours..."
+
+#: src/cnmsstrings.h:164
+msgid "Searching for scanners."
+msgstr "Recherche de scanners en cours."
+
+#: src/cnmsstrings.h:165
+msgid "Updating the scanner list."
+msgstr "Mise à jour de la liste des scanners en cours."
+
+#. scanmsg.h
+#: src/cnmsstrings.h:169
+msgid "Scanning canceled by user."
+msgstr "Numérisation annulée."
+
+#: src/cnmsstrings.h:170
+msgid "Copying...  Scan after it is complete."
+msgstr "Copie en cours... Attendez la fin pour numériser."
+
+#: src/cnmsstrings.h:171
+msgid "Printing...  Scan after it is complete."
+msgstr "Impression en cours... Attendez la fin pour numériser."
+
+#: src/cnmsstrings.h:172
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "Maintenance de l'imprimante en cours. Attendez la fin pour numériser."
+
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Impossible de communiquer avec le scanner.\n"
+"Le câble est peut-être débranché ou le scanner hors tension. \n"
+"Vérifiez l'état.\n"
+"Le pilote du scanner va être fermé."
+
+#: src/cnmsstrings.h:174
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Espace disque insuffisant pour terminer la numérisation.\n"
+"Le pilote du scanner va être fermé."
+
+#: src/cnmsstrings.h:175
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Une erreur interne s'est produite.\n"
+"Le pilote du scanner va être fermé."
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:177
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Erreur de scanner.\n"
+"Mettez le scanner hors tension et suivez les instructions du manuel.\n"
+"Le pilote du scanner va être fermé."
+
+#. Ver.1.20, Ver.1.90 modified
+#: src/cnmsstrings.h:179
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"L'imprimante est en cours d'utilisation ou une erreur s'est produite. Vérifiez \n"
+"l'état.\n"
+"Le pilote du scanner va être fermé."
+
+#: src/cnmsstrings.h:180
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr ""
+"Initialisation de l'imprimante en cours. Attendez qu'elle soit terminée pour \n"
+"numériser."
+
+#: src/cnmsstrings.h:181
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Une erreur s'est produite.\n"
+"Eteignez puis rallumez le périphérique.\n"
+"Le pilote du scanner va être fermé."
+
+#. Ver.1.30, Ver.1.70 modified
+#: src/cnmsstrings.h:183
+msgid ""
+"Scanning canceled by user. \n"
+"Press the OK button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"Numérisation annulée par l'utilisateur. \n"
+"Appuyez sur le bouton OK du tableau de bord de l'imprimante pour éjecter\n"
+"le document du CAD (chargeur automatique de documents)."
+
+#: src/cnmsstrings.h:184
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the OK button to clear the status on the printer's operation panel."
+msgstr ""
+"Un bourrage papier s'est produit dans le CAD (chargeur automatique de \n"
+"documents). \n"
+"Ouvrez le couvercle et retirez le papier coincé, puis refermez le couvercle. \n"
+"Appuyez sur le bouton OK du tableau de bord de l'imprimante pour réinitialiser \n"
+"l'état."
+
+#: src/cnmsstrings.h:185
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the OK button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"Le couvercle du CAD (chargeur automatique de documents) est ouvert. \n"
+"Fermez-le et appuyez sur le bouton OK du tableau\n"
+"de bord de l'imprimante pour réinitialiser l'état."
+
+#: src/cnmsstrings.h:186
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the OK button on the printer's operation panel to cancel the error, \n"
+"then place paper in the ADF."
+msgstr ""
+"Aucun document dans le CAD (chargeur automatique de documents). \n"
+"Appuyez sur le bouton OK du tableau de bord de l'imprimante pour annuler \n"
+"l'erreur, \n"
+"puis placez du papier dans le CAD."
+
+#: src/cnmsstrings.h:187
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the OK button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Document trop important.\n"
+"Vérifiez que le couvercle du CAD (chargeur automatique de documents) est fermé \n"
+"et appuyez sur le bouton OK du tableau de bord de l'imprimante pour éjecter le \n"
+"document du CAD."
+
+#: src/cnmsstrings.h:188
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the OK button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Le format papier n'est pas adapté à la numérisation recto verso. \n"
+"Vérifiez que le couvercle du CAD (chargeur automatique de documents) est fermé \n"
+"et appuyez sur le bouton OK du tableau de bord de l'imprimante pour éjecter le \n"
+"document du CAD."
+
+#. Ver.1.40
+#: src/cnmsstrings.h:190
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Impossible de communiquer avec le scanner pour les raisons suivantes :\n"
+"- Le scanner est hors tension.\n"
+"- Le scanner est déconnecté.\n"
+"(Il est déconnecté du réseau, si vous en utilisez un.)\n"
+"\n"
+"Vérifiez et réessayez.\n"
+"Le pilote du scanner va être fermé."
+
+#. Ver.1.60
+#: src/cnmsstrings.h:192
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Impossible de communiquer avec le scanner pour les raisons suivantes :\n"
+"- Le scanner est éteint.\n"
+"- L'interrupteur de verrouillage n'est pas relâché.\n"
+"- Le scanner est déconnecté.\n"
+"(Il est déconnecté du réseau, s'il utilise le réseau.)\n"
+"\n"
+"Veuillez vérifier et réessayer.\n"
+"Le pilote du scanner va être fermé."
+
+#: src/cnmsstrings.h:193
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Relâchez l'interrupteur de verrouillage, éteignez puis rallumez le périphérique.\n"
+"Le pilote du scanner va être fermé."
+
+#. Ver.1.70, Ver.1.90 modified
+#: src/cnmsstrings.h:195
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- USB cable is disconnected.\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Impossible de communiquer avec le scanner pour les raisons suivantes :\n"
+"- Le scanner est hors tension.\n"
+"- Le câble USB est débranché.\n"
+"\n"
+"Veuillez vérifier et réessayez.\n"
+"Le pilote du scanner va être fermé."
+
+#: src/cnmsstrings.h:196
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- (If using LAN connection) It is disconnected from LAN.\n"
+"- (If using wireless LAN connection) Signal strength is poor due to "
+"obstructions.\n"
+"- Network connection is prohibited by security software.\n"
+"- Different scanner on the network is selected.\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Impossible de communiquer avec le scanner pour les raisons suivantes :\n"
+"- Le scanner est hors tension.\n"
+"- (Si vous utilisez une connexion réseau) Il est déconnecté du réseau.\n"
+"- (Si vous utilisez une connexion réseau sans fil) La puissance du signal est \n"
+"faible en raison d'une obstruction.\n"
+"- La connexion au réseau est bloquée par un logiciel de sécurité.\n"
+"- Un autre scanner du réseau est sélectionné.\n"
+"\n"
+"Veuillez vérifier et réessayez.\n"
+"Le pilote du scanner va être fermé."
+
+#. scanflow.c
+#: src/cnmsstrings.h:199
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"Traitement des données de calibrage du scanner.\n"
+"Ne pas ouvrir le couvercle."
+
+#: src/cnmsstrings.h:200
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"Préchauffage du scanner...\n"
+"Ne pas ouvrir le couvercle."
+
+#. w1_main.c
+#: src/cnmsstrings.h:203
+msgid "Delete preview images."
+msgstr "Supprimer les images d'aperçu."
+
+#: src/cnmsstrings.h:204
+msgid "Select Source is altered, so deletes preview image."
+msgstr "La source sélectionnée étant modifiée, supprime l'aperçu de l'image."
+
+#. preference.c
+#: src/cnmsstrings.h:207
+msgid ""
+"Collecting printer status about maintenance.\n"
+"Please wait."
+msgstr ""
+"Collecte d'informations sur l'état de l'imprimante au niveau maintenance.\n"
+"Patientez."
+
+#: src/cnmsstrings.h:208
+msgid ""
+"Sending printer settings about maintenance.\n"
+"Please wait."
+msgstr ""
+"Envoi des paramètres d'imprimante au niveau maintenance.\n"
+"Patientez."
+
+#: src/cnmsstrings.h:209
+msgid "Do not use quiet mode"
+msgstr "Désactiver le mode silencieux"
+
+#: src/cnmsstrings.h:210
+msgid "Always use quiet mode"
+msgstr "Toujours activer le mode silencieux"
+
+#: src/cnmsstrings.h:211
+msgid "Use quiet mode during specified hours"
+msgstr "Activer le mode silencieux pendant des heures spécifiées"
+
+#: src/cnmsstrings.h:212
+msgid "Start time :"
+msgstr "Heure de début :"
+
+#: src/cnmsstrings.h:213
+msgid "End time :"
+msgstr "Heure de fin :"
+
+#: src/cnmsstrings.h:214
+msgid ""
+"When the hours are specified, quiet mode is not applied to operations\n"
+"(copy, direct print, etc.) performed directly from the printer."
+msgstr ""
+"Lorsque les heures sont spécifiées, le mode silencieux ne s'applique pas aux \n"
+"opérations\n"
+"(copie, impression directe, etc.) effectuées directement depuis l'imprimante."
+
+#: src/cnmsstrings.h:216
+msgid "Enable"
+msgstr "Activer"
+
+#: src/cnmsstrings.h:217
+msgid "Disable"
+msgstr "Désactiver"
+
+#: src/cnmsstrings.h:218
+msgid "15 minutes"
+msgstr "15 minutes"
+
+#: src/cnmsstrings.h:219
+msgid "30 minutes"
+msgstr "30 minutes"
+
+#: src/cnmsstrings.h:220
+msgid "60 minutes"
+msgstr "60 minutes"
+
+#: src/cnmsstrings.h:221
+msgid "120 minutes"
+msgstr "120 minutes"
+
+#: src/cnmsstrings.h:222
+msgid "240 minutes"
+msgstr "240 minutes"

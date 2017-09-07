@@ -1,0 +1,1102 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2014
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp. 2.30\n"
+"POT-Creation-Date: 2013-09-30 18:15+0900\n"
+"PO-Revision-Date: 2013-10-01 15:41+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:165 src/interface.c:1718 src/interface.c:1788
+#: src/interface.c:3234 src/interface.c:3298 src/interface.c:3362
+#: src/interface.c:3452 src/interface.c:3636 src/interface.c:3717
+#: src/interface.c:3781
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:189
+msgid "Clear Preview"
+msgstr "プレビューのクリア"
+
+#: src/interface.c:193
+msgid "About"
+msgstr "バージョン情報"
+
+#: src/interface.c:251
+msgid "Select Source"
+msgstr "原稿を選択する"
+
+#: src/interface.c:288
+msgid "Display Preview Image"
+msgstr "試しの画像を表示する"
+
+#: src/interface.c:295 src/interface.c:801
+msgid "Preview"
+msgstr "プレビュー"
+
+#: src/interface.c:319
+msgid "Destination"
+msgstr "用途を選択する"
+
+#: src/interface.c:362
+msgid "Output Size"
+msgstr "出力サイズを選択する"
+
+#: src/interface.c:405
+msgid "Adjust cropping frames"
+msgstr "読取枠(クロップ枠)を調整する"
+
+#: src/interface.c:460
+msgid "Perform Scan"
+msgstr "画像を読み取る"
+
+#: src/interface.c:467 src/interface.c:797
+msgid "Scan"
+msgstr "スキャン"
+
+#: src/interface.c:488
+msgid "Basic Mode"
+msgstr "基本モード"
+
+#: src/interface.c:508
+msgid "Select Source :"
+msgstr "原稿の種類 :"
+
+#: src/interface.c:521
+msgid "Color Mode :"
+msgstr "カラーモード :"
+
+#: src/interface.c:540 src/interface.c:645
+msgid "Width :"
+msgstr "幅 :"
+
+#: src/interface.c:561 src/interface.c:663
+msgid "Height :"
+msgstr "高さ :"
+
+#: src/interface.c:584
+msgid "Paper Size :"
+msgstr "原稿サイズ :"
+
+#: src/interface.c:597
+msgid "Binding Location :"
+msgstr "とじ方向 :"
+
+#: src/interface.c:610
+msgid "Input Settings"
+msgstr "入力設定"
+
+#: src/interface.c:635
+msgid "dpi"
+msgstr "dpi"
+
+#: src/interface.c:698
+msgid "Output Resolution :"
+msgstr "出力解像度 :"
+
+#: src/interface.c:705
+msgid "Output Size :"
+msgstr "出力サイズ :"
+
+#: src/interface.c:718
+msgid "Data Size :"
+msgstr "データサイズ :"
+
+#: src/interface.c:733
+msgid "Output Settings"
+msgstr "出力設定"
+
+#: src/interface.c:751
+msgid "Unsharp Mask :"
+msgstr "輪郭強調 :"
+
+#: src/interface.c:764
+msgid "Descreen :"
+msgstr "モアレ低減 :"
+
+#: src/interface.c:775
+msgid "Image Settings"
+msgstr "画像設定"
+
+#: src/interface.c:825 src/interface.c:1398 src/interface.c:2033
+#: src/interface.c:2449 src/interface.c:2681 src/interface.c:3155
+#: src/interface.c:4026
+msgid "Defaults"
+msgstr "標準に戻す"
+
+#: src/interface.c:829 src/interface.c:3039
+msgid "Threshold"
+msgstr "白黒設定"
+
+#: src/interface.c:832 src/interface.c:2778
+msgid "Final Review"
+msgstr "最終確認"
+
+#: src/interface.c:836 src/interface.c:2597
+msgid "Tone Curve Settings"
+msgstr "トーンカーブ調整"
+
+#: src/interface.c:840 src/interface.c:2186
+msgid "Histogram"
+msgstr "ヒストグラム"
+
+#: src/interface.c:844 src/interface.c:1875
+msgid "Brightness/Contrast"
+msgstr "明るさ・コントラスト"
+
+#: src/interface.c:848
+msgid "Advanced Mode"
+msgstr "拡張モード"
+
+#: src/interface.c:856
+msgid "Preferences..."
+msgstr "詳細設定..."
+
+#: src/interface.c:860 src/interface.c:2038 src/interface.c:2454
+#: src/interface.c:2686 src/interface.c:2947 src/interface.c:3160
+msgid "Close"
+msgstr "閉じる"
+
+#: src/interface.c:1194
+msgid "Preferences"
+msgstr "詳細設定"
+
+#: src/interface.c:1221 src/interface.c:4190
+msgid "Auto Power Settings"
+msgstr "自動電源設定"
+
+#: src/interface.c:1250 src/interface.c:1305
+msgid "Settings..."
+msgstr "設定..."
+
+#: src/interface.c:1268
+msgid "Quiet Mode"
+msgstr "サイレントモード"
+
+#: src/interface.c:1276 src/interface.c:3874
+msgid "Quiet Settings"
+msgstr "サイレント設定"
+
+#: src/interface.c:1323
+msgid "Calibration Settings"
+msgstr "キャリブレーション設定"
+
+#: src/interface.c:1333
+msgid "Execute at Every Scan :"
+msgstr "スキャン前に毎回実行 :"
+
+#: src/interface.c:1347
+msgid "Scanner"
+msgstr "スキャナー"
+
+#: src/interface.c:1356
+msgid "Recommended"
+msgstr "推奨"
+
+#: src/interface.c:1362
+msgid "None"
+msgstr "色補正なし"
+
+#: src/interface.c:1376
+msgid "Monitor Gamma :"
+msgstr "モニターガンマ :"
+
+#: src/interface.c:1418
+msgid "Color Settings"
+msgstr "色の設定"
+
+#: src/interface.c:1428 src/interface.c:1579 src/interface.c:1742
+#: src/interface.c:1812 src/interface.c:3322 src/interface.c:3410
+#: src/interface.c:3481 src/interface.c:3670 src/interface.c:3744
+#: src/interface.c:3805 src/interface.c:4016 src/interface.c:4237
+msgid "OK"
+msgstr "OK"
+
+#: src/interface.c:1433 src/interface.c:1584 src/interface.c:1674
+#: src/interface.c:1747 src/interface.c:3486 src/interface.c:3675
+#: src/interface.c:3810 src/interface.c:4021 src/interface.c:4242
+#: src/cnmsstrings.h:166
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/interface.c:1535
+msgid "Select Scanner"
+msgstr "スキャナーの選択"
+
+#: src/interface.c:1552
+msgid "No scanners detected."
+msgstr "スキャナーが見つかりません。"
+
+#: src/interface.c:1566
+msgid "Update Scanner List"
+msgstr "スキャナーリストを更新"
+
+#: src/interface.c:1636
+msgid "Save Scan Image"
+msgstr "スキャン画像の保存"
+
+#: src/interface.c:1647
+msgid "Save as type:"
+msgstr "ファイルの種類:"
+
+#: src/interface.c:1669
+msgid "Save"
+msgstr "保存"
+
+#: src/interface.c:1734
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"同じ名前のファイルが既に存在します。\n"
+"上書きしますか？"
+
+#: src/interface.c:1887 src/interface.c:2198 src/interface.c:2609
+#: src/interface.c:2790
+msgid "Channel :"
+msgstr "チャネル :"
+
+#: src/interface.c:1940
+msgid "Brightness :"
+msgstr "明るさ :"
+
+#: src/interface.c:1958
+msgid "Dark"
+msgstr "暗く"
+
+#: src/interface.c:1963
+msgid "Bright"
+msgstr "明るく"
+
+#: src/interface.c:1989
+msgid "Contrast :"
+msgstr "コントラスト :"
+
+#: src/interface.c:2007
+msgid "Low"
+msgstr "弱く"
+
+#: src/interface.c:2012
+msgid "High"
+msgstr "強く"
+
+#: src/interface.c:2374
+msgid "Gray Balance :"
+msgstr "グレーバランス調整 :"
+
+#: src/interface.c:2661
+msgid "Select Tone Curve :"
+msgstr "トーンカーブ選択 :"
+
+#. Tone Curve strings
+#: src/interface.c:2672 src/cnmsstrings.h:133
+msgid "No correction"
+msgstr "補正なし"
+
+#: src/interface.c:2673 src/cnmsstrings.h:134
+msgid "Overexposure"
+msgstr "露出オーバーにする"
+
+#: src/interface.c:2674 src/cnmsstrings.h:135
+msgid "Underexposure"
+msgstr "露出アンダーにする"
+
+#: src/interface.c:2675 src/cnmsstrings.h:136
+msgid "High contrast"
+msgstr "ハイコントラストにする"
+
+#: src/interface.c:2847
+msgid "Original"
+msgstr "調整前"
+
+#: src/interface.c:2897
+msgid "Current"
+msgstr "調整後"
+
+#: src/interface.c:3097
+msgid "Threshold Level :"
+msgstr "2階調化するしきい値 :"
+
+#: src/interface.c:3113
+msgid "Light"
+msgstr "薄く"
+
+#: src/interface.c:3118
+msgid " Dark"
+msgstr "濃く"
+
+#: src/interface.c:4205
+msgid "Auto Power On :"
+msgstr "自動電源オン :"
+
+#: src/interface.c:4213
+msgid "Auto Power Off :"
+msgstr "自動電源オフ :"
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#: src/cnmsstrings.h:36
+#, c-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: src/cnmsstrings.h:38
+#, c-format
+msgid "Copyright CANON INC. %s-%s"
+msgstr "Copyright CANON INC. %s-%s"
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:50
+msgid "Photo (Color)"
+msgstr "写真(カラー)"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:51
+msgid "Magazine (Color)"
+msgstr "雑誌(カラー)"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:52
+msgid "Newspaper(B&W)"
+msgstr "新聞(白黒)"
+
+#: src/cnmsstrings.h:53
+msgid "Document (Grayscale)"
+msgstr "文書(グレー)"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:54
+msgid "Newspaper (Grayscale)"
+msgstr "新聞(グレー)"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:55
+msgid "Document (Color) ADF Simplex"
+msgstr "文書(カラー) ADF 片面"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:56
+msgid "Document (Grayscale) ADF Simplex"
+msgstr "文書(グレー) ADF 片面"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:57
+msgid "Document (Color) ADF Duplex"
+msgstr "文書(カラー) ADF 両面"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:58
+msgid "Document (Grayscale) ADF Duplex"
+msgstr "文書(グレー) ADF 両面"
+
+#. Ver.1.80 modified
+#: src/cnmsstrings.h:59
+msgid "Document (Color)"
+msgstr "文書(カラー)"
+
+#. Ver.1.80 added
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:62
+msgid "Print(300dpi)"
+msgstr "印刷(300dpi)"
+
+#: src/cnmsstrings.h:63
+msgid "Image display(150dpi)"
+msgstr "画面表示(150dpi)"
+
+#: src/cnmsstrings.h:64
+msgid "OCR(300dpi)"
+msgstr "OCR(300dpi)"
+
+#: src/cnmsstrings.h:65
+msgid "Print"
+msgstr "印刷"
+
+#: src/cnmsstrings.h:66
+msgid "Image display"
+msgstr "画面表示"
+
+#: src/cnmsstrings.h:67
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:70
+msgid "Flexible"
+msgstr "フリーサイズ"
+
+#: src/cnmsstrings.h:71
+msgid "Card"
+msgstr "名刺"
+
+#: src/cnmsstrings.h:72
+msgid "L Landscape"
+msgstr "L判 横"
+
+#: src/cnmsstrings.h:73
+msgid "L Portrait"
+msgstr "L判 縦"
+
+#: src/cnmsstrings.h:74
+msgid "2L Landscape"
+msgstr "2L判 横"
+
+#: src/cnmsstrings.h:75
+msgid "2L Portrait"
+msgstr "2L判 縦"
+
+#: src/cnmsstrings.h:76
+msgid "4\" x 6\" Landscape"
+msgstr "KG 横"
+
+#: src/cnmsstrings.h:77
+msgid "4\" x 6\" Portrait"
+msgstr "KG 縦"
+
+#: src/cnmsstrings.h:78
+msgid "Hagaki"
+msgstr "はがき"
+
+#: src/cnmsstrings.h:79
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:80
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:81
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:82
+msgid "Letter"
+msgstr "レター"
+
+#: src/cnmsstrings.h:83
+msgid "Legal"
+msgstr "リーガル"
+
+#: src/cnmsstrings.h:84
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:85
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:86
+msgid "128 x 128 pixels"
+msgstr "128 x 128 pixels"
+
+#: src/cnmsstrings.h:87
+msgid "640 x 480 pixels"
+msgstr "640 x 480 pixels"
+
+#: src/cnmsstrings.h:88
+msgid "800 x 600 pixels"
+msgstr "800 x 600 pixels"
+
+#: src/cnmsstrings.h:89
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 pixels"
+
+#: src/cnmsstrings.h:90
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 pixels"
+
+#: src/cnmsstrings.h:91
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 pixels"
+
+#: src/cnmsstrings.h:92
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 pixels"
+
+#: src/cnmsstrings.h:93
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 pixels"
+
+#: src/cnmsstrings.h:94
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 pixels"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:96
+msgid "Full Platen"
+msgstr "原稿台全面"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:99
+msgid "Platen"
+msgstr "紙/写真"
+
+#: src/cnmsstrings.h:100
+msgid "Document (ADF Simplex)"
+msgstr "紙/文書(ADF 片面)"
+
+#: src/cnmsstrings.h:101
+msgid "Document (ADF Duplex)"
+msgstr "紙/文書(ADF 両面)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:104
+msgid "Long Edge"
+msgstr "長辺とじ"
+
+#: src/cnmsstrings.h:105
+msgid "Short Edge"
+msgstr "短辺とじ"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:108
+msgid "Color"
+msgstr "カラー"
+
+#: src/cnmsstrings.h:109
+msgid "Color(Documents)"
+msgstr "カラー(文書,表)"
+
+#. add space
+#: src/cnmsstrings.h:111
+msgid "Grayscale "
+msgstr "グレースケール"
+
+#: src/cnmsstrings.h:112
+msgid "Black and White"
+msgstr "白黒"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:115
+msgid "pixels"
+msgstr "pixels"
+
+#: src/cnmsstrings.h:116
+msgid "inches"
+msgstr "inches"
+
+#: src/cnmsstrings.h:117
+msgid "centimeters"
+msgstr "センチ"
+
+#: src/cnmsstrings.h:118
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:121
+msgid "ON"
+msgstr "ON"
+
+#: src/cnmsstrings.h:122
+msgid "OFF"
+msgstr "OFF"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:126
+msgid "Master"
+msgstr "マスター"
+
+#: src/cnmsstrings.h:127
+msgid "Red"
+msgstr "レッド"
+
+#: src/cnmsstrings.h:128
+msgid "Green"
+msgstr "グリーン"
+
+#: src/cnmsstrings.h:129
+msgid "Blue"
+msgstr "ブルー"
+
+#: src/cnmsstrings.h:130
+msgid "Grayscale"
+msgstr "グレー"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:139
+msgid "The file name is not specified."
+msgstr "ファイル名が入力されていません。"
+
+#: src/cnmsstrings.h:140
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"指定したファイルにアクセスするための権限がありません。\n"
+"別のファイル名を指定するか、別のディレクトリに保存してください。"
+
+#: src/cnmsstrings.h:141
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"指定したディレクトリが存在しないか、アクセスするための権限がありません。\n"
+"別のディレクトリに保存してください。"
+
+#: src/cnmsstrings.h:142
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"ファイル名が無効です。\n"
+"別のファイル名を指定してください。"
+
+#. child_dialog.c
+#: src/cnmsstrings.h:145
+msgid "Do not display this message again."
+msgstr "今後、このメッセージを表示しない"
+
+#: src/cnmsstrings.h:147
+msgid "Resets the settings to default."
+msgstr "設定をリセットします。"
+
+#: src/cnmsstrings.h:148
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"100MBを超える大きな画像をスキャンしようとしています。この容量の画像をスキャ\n"
+"ンすると、PCに大きな負担をかけたり、アプリケーションによっては、画像を受け取れ\n"
+"ない場合があります。\n"
+"続行しますか?"
+
+#: src/cnmsstrings.h:149
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"%s x %s pixels 以下になるようにクロップサイズ、\n"
+"出力サイズ、または出力解像度を小さくしないと\n"
+"スキャンできません。"
+
+#: src/cnmsstrings.h:150
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr "輪郭強調をオフにしないとモアレが残ることがあります。"
+
+#: src/cnmsstrings.h:151
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"ADF(自動原稿給紙装置)に原稿がありません。\n"
+"原稿をセットしてください。"
+
+#: src/cnmsstrings.h:152
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"使用できるスキャナーが見つかりません。\n"
+"\n"
+"ケーブルが外れているか、電源が入っていない可能性があります。\n"
+"スキャナーの状態を確認してから、やり直してください。"
+
+#: src/cnmsstrings.h:153
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"大きな画像をスキャンしようとしています。\n"
+"この画像をスキャンしたい場合は、画像サイズか\n"
+"出力解像度を小さくしてください。"
+
+#: src/cnmsstrings.h:154
+msgid "Apply settings to printer?"
+msgstr "現在の設定内容をプリンターに適用しますか？"
+
+#: src/cnmsstrings.h:155
+msgid ""
+"Apply the setting to printer?\n"
+"If the printer is connected to a network, it will not turn off automatically "
+"even if Auto Power Off is set."
+msgstr ""
+"現在の設定内容をプリンターに適用しますか？\n"
+"ただし、ネットワークに接続してお使いの場合、自動電源オフを設定しても自動的に電源\n"
+"は切れません。"
+
+#. progress_bar.c
+#: src/cnmsstrings.h:158
+msgid "Scanning..."
+msgstr "スキャン中..."
+
+#: src/cnmsstrings.h:159
+msgid "Saving..."
+msgstr "保存中..."
+
+#: src/cnmsstrings.h:160
+msgid "Transferring..."
+msgstr "転送中..."
+
+#: src/cnmsstrings.h:161
+#, c-format
+msgid "%d page(s)"
+msgstr "%d 枚目"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:163
+msgid "Searching..."
+msgstr "検索中..."
+
+#: src/cnmsstrings.h:164
+msgid "Searching for scanners."
+msgstr "スキャナーを検索中です。"
+
+#: src/cnmsstrings.h:165
+msgid "Updating the scanner list."
+msgstr "スキャナーリストを更新中です。"
+
+#. scanmsg.h
+#: src/cnmsstrings.h:169
+msgid "Scanning canceled by user."
+msgstr "スキャンはユーザーによりキャンセルされました。"
+
+#: src/cnmsstrings.h:170
+msgid "Copying...  Scan after it is complete."
+msgstr "コピー中です。終了してからスキャンしてください。"
+
+#: src/cnmsstrings.h:171
+msgid "Printing...  Scan after it is complete."
+msgstr "印刷中です。終了してからスキャンしてください。"
+
+#: src/cnmsstrings.h:172
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "プリンタのメンテナンス中です。終了してからスキャンしてください。"
+
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"スキャナーとの通信ができません。\n"
+"\n"
+"ケーブルが外れているか、電源が入っていない可能性があります。\n"
+"スキャナーの状態を確認してください。\n"
+"スキャナードライバーを終了します。"
+
+#: src/cnmsstrings.h:174
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"読取を完了するために必要なディスクの空き容量がありません。\n"
+"スキャナードライバーを終了します。"
+
+#: src/cnmsstrings.h:175
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"内部エラーが発生しました。\n"
+"スキャナードライバーを終了します。"
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:177
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"スキャナー本体にエラーが発生しました。\n"
+"取扱説明書に従った処理を実行してください。\n"
+"スキャナードライバーを終了します。"
+
+#. Ver.1.20, Ver.1.90 modified
+#: src/cnmsstrings.h:179
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"プリンターが使用中かエラーが発生しています。プリンターの状態を確認してください。\n"
+"スキャナードライバーを終了します。"
+
+#: src/cnmsstrings.h:180
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "プリンターの初期化中です。終了してからスキャンしてください。"
+
+#: src/cnmsstrings.h:181
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"エラーが発生しました。\n"
+"本体の電源を入れ直してください。\n"
+"スキャナードライバーを終了します。"
+
+#. Ver.1.30, Ver.1.70 modified
+#: src/cnmsstrings.h:183
+msgid ""
+"Scanning canceled by user. \n"
+"Press the OK button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"スキャンがキャンセルされました。\n"
+"プリンターの操作パネルのOKボタンを押し、\n"
+"ADF(自動原稿給紙装置)から原稿を取り出してください。"
+
+#: src/cnmsstrings.h:184
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the OK button to clear the status on the printer's operation panel."
+msgstr ""
+"ADF(自動原稿給紙装置)の中で原稿が詰まりました。\n"
+"カバーを開けて原稿を取り除き、再度カバーを閉めてください。\n"
+"その後プリンターの操作パネルのOKボタンを押して\n"
+"スキャナーを元の状態に戻してください。"
+
+#: src/cnmsstrings.h:185
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the OK button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"ADF(自動原稿給紙装置)のカバーが開いています。\n"
+"カバーを閉じてから、プリンターの操作パネルのOKボタンを押して\n"
+"スキャナーを元の状態に戻してください。"
+
+#: src/cnmsstrings.h:186
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the OK button on the printer's operation panel to cancel the error, \n"
+"then place paper in the ADF."
+msgstr ""
+"ADF(自動原稿給紙装置)に原稿がありません。\n"
+"プリンターの操作パネルのOKボタンを押してエラーを解除し、\n"
+"ADFに原稿をセットしてください。"
+
+#: src/cnmsstrings.h:187
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the OK button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"原稿が長すぎます。\n"
+"ADF(自動原稿給紙装置)のカバーが閉まっていることを確認し、\n"
+"プリンターの操作パネルのOKボタンを押して、\n"
+"ADFから原稿を取り出してください。"
+
+#: src/cnmsstrings.h:188
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the OK button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"原稿サイズが両面読取に適していません。\n"
+"ADF(自動原稿給紙装置)のカバーが閉まっていることを確認し、\n"
+"プリンターの操作パネルのOKボタンを押して、\n"
+"ADFから原稿を取り出してください。"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:190
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"以下の理由でスキャナーとの通信ができません。\n"
+"- スキャナーの電源が入っていない。\n"
+"- スキャナーが接続されていない。\n"
+"(LAN環境でご使用の場合、LANに接続されていない。)\n"
+"\n"
+"確認してから、やり直してください。\n"
+"スキャナードライバーを終了します。"
+
+#. Ver.1.60
+#: src/cnmsstrings.h:192
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"以下の理由でスキャナーとの通信ができません。\n"
+"- スキャナーの電源が入っていない。\n"
+"- ロックスイッチが解除されていない。\n"
+"- スキャナーが接続されていない。\n"
+"(LAN環境でご使用の場合、LANに接続されていない。)\n"
+"\n"
+"確認してから、やり直してください。\n"
+"スキャナードライバーを終了します。"
+
+#: src/cnmsstrings.h:193
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"ロックスイッチを解除し、本体の電源を入れ直してください。\n"
+"スキャナードライバーを終了します。"
+
+#. Ver.1.70, Ver.1.90 modified
+#: src/cnmsstrings.h:195
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- USB cable is disconnected.\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"以下の理由でスキャナーとの通信ができません。\n"
+"- スキャナーの電源が入っていない。\n"
+"- USBケーブルが正しく接続されていない。\n"
+"\n"
+"確認してから、やり直してください。\n"
+"スキャナードライバーを終了します。"
+
+#: src/cnmsstrings.h:196
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- (If using LAN connection) It is disconnected from LAN.\n"
+"- (If using wireless LAN connection) Signal strength is poor due to "
+"obstructions.\n"
+"- Network connection is prohibited by security software.\n"
+"- Different scanner on the network is selected.\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"以下の理由でスキャナーとの通信ができません。\n"
+"- スキャナーの電源が入っていない。\n"
+"- (LAN環境でご使用の場合)LANに接続されていない。\n"
+"- (無線LAN環境でご使用の場合)遮蔽物などで電波の状態が悪い。\n"
+"- セキュリティーソフトなどでネットワーク接続が禁止されている。\n"
+"- ネットワーク上の異なるスキャナーが選択されている。\n"
+"\n"
+"確認してから、やり直してください。\n"
+"スキャナードライバーを終了します。"
+
+#. scanflow.c
+#: src/cnmsstrings.h:199
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"スキャナーから補正データを取得(キャリブレーション)中です。\n"
+"原稿台カバーを開けないでください。"
+
+#: src/cnmsstrings.h:200
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"スキャナーを準備しています。\n"
+"原稿台カバーを開けないでください。"
+
+#. w1_main.c
+#: src/cnmsstrings.h:203
+msgid "Delete preview images."
+msgstr "プレビュー画像を消去します。"
+
+#: src/cnmsstrings.h:204
+msgid "Select Source is altered, so deletes preview image."
+msgstr "原稿の種類が変更されるので、プレビュー画像を消去します。"
+
+#. preference.c
+#: src/cnmsstrings.h:207
+msgid ""
+"Collecting printer status about maintenance.\n"
+"Please wait."
+msgstr ""
+"プリンターに設定されているメンテナンスに関する設定情報を取得中です。\n"
+"しばらくお待ちください。"
+
+#: src/cnmsstrings.h:208
+msgid ""
+"Sending printer settings about maintenance.\n"
+"Please wait."
+msgstr ""
+"プリンターにメンテナンスに関する設定情報を送信中です。\n"
+"しばらくお待ちください。"
+
+#: src/cnmsstrings.h:209
+msgid "Do not use quiet mode"
+msgstr "サイレントモードで使用しない"
+
+#: src/cnmsstrings.h:210
+msgid "Always use quiet mode"
+msgstr "常にサイレントモードで使用する"
+
+#: src/cnmsstrings.h:211
+msgid "Use quiet mode during specified hours"
+msgstr "指定した時間だけサイレントモードで使用する"
+
+#: src/cnmsstrings.h:212
+msgid "Start time :"
+msgstr "開始時刻 :"
+
+#: src/cnmsstrings.h:213
+msgid "End time :"
+msgstr "終了時刻 :"
+
+#: src/cnmsstrings.h:214
+msgid ""
+"When the hours are specified, quiet mode is not applied to operations\n"
+"(copy, direct print, etc.) performed directly from the printer."
+msgstr ""
+"時間を指定した場合は、プリンター本体からの操作\n"
+"(コピー、ダイレクト印刷など)にサイレントモードは適用されません。"
+
+#: src/cnmsstrings.h:216
+msgid "Enable"
+msgstr "有効"
+
+#: src/cnmsstrings.h:217
+msgid "Disable"
+msgstr "無効"
+
+#: src/cnmsstrings.h:218
+msgid "15 minutes"
+msgstr "15分"
+
+#: src/cnmsstrings.h:219
+msgid "30 minutes"
+msgstr "30分"
+
+#: src/cnmsstrings.h:220
+msgid "60 minutes"
+msgstr "60分"
+
+#: src/cnmsstrings.h:221
+msgid "120 minutes"
+msgstr "120分"
+
+#: src/cnmsstrings.h:222
+msgid "240 minutes"
+msgstr "240分"

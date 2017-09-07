@@ -1,0 +1,21 @@
+#!/bin/sh
+
+_gimp2dir1=/usr/lib/gimp/2.0/plug-ins
+_gimp2dir2=/opt/gnome/lib/gimp/2.0/plug-ins
+
+if [ -x /sbin/ldconfig ]; then
+	/sbin/ldconfig
+fi
+# make symbolic link for gimp-plug-in
+if [ -d ${_gimp2dir1} ]; then
+	ln -fs /usr/bin/scangearmp ${_gimp2dir1}/scangearmp
+elif [ -d ${_gimp2dir2} ]; then
+	ln -fs /usr/bin/scangearmp ${_gimp2dir2}/scangearmp
+fi
+
+#reload udev rules
+if [ -x /sbin/udevadm ]; then
+	/sbin/udevadm control --reload-rules 2> /dev/null
+	/sbin/udevadm trigger --action=add --subsystem-match=usb 2> /dev/null
+fi
+

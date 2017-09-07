@@ -1,0 +1,144 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+_arc = `getconf LONG_BIT`
+
+# define package name
+COMMON_PKG=scangearmp-common
+PRINTER_DEPEND_PKG+=scangearmp-mx470-434
+PRINTER_DEPEND_PKG+=scangearmp-mx530-435
+PRINTER_DEPEND_PKG+=scangearmp-e560-437
+PRINTER_DEPEND_PKG+=scangearmp-e400-438
+
+CFLAGS = -Wall -g
+
+ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
+	CFLAGS += -O0
+else
+	CFLAGS += -O2
+endif
+
+configure: configure-stamp
+configure-stamp:
+	dh_testdir
+	# Add here commands to configure the package.
+
+	### configure common package
+	@echo "######## configure scangearmp"; \
+	cd ./scangearmp; ./autogen.sh --prefix=/usr LDFLAGS="-L`pwd`/../com/libs_bin${_arc}"
+
+	touch configure-stamp
+
+
+build: build-stamp
+
+build-stamp: configure-stamp 
+	dh_testdir
+
+	# Add here commands to compile the package.
+	#$(MAKE)
+
+	### build common package
+	@echo "######## compile scangearmp"; \
+	cd ./scangearmp; make
+
+	touch $@
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+
+	# Add here commands to clean up after the build process.
+	#-$(MAKE) clean
+	-cd ./scangearmp; make clean
+
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+
+	### install common package
+	cd ./scangearmp; make install DESTDIR=$(CURDIR)/debian/${COMMON_PKG}
+	### remove .la .a
+	rm -f $(CURDIR)/debian/${COMMON_PKG}/usr/lib/*.la $(CURDIR)/debian/${COMMON_PKG}/usr/lib/*.a
+
+	### copy common libraries
+	dh_install -s
+	mkdir -p $(CURDIR)/debian/${COMMON_PKG}/usr/lib
+	install -c -s -m 755 ./com/libs_bin${_arc}/*.so.* $(CURDIR)/debian/${COMMON_PKG}/usr/lib
+	
+	### copy udev rules file
+	dh_install -s
+	mkdir -p $(CURDIR)/debian/${COMMON_PKG}/etc/udev/rules.d
+	install -c -m 644 ./scangearmp/etc/*.rules $(CURDIR)/debian/${COMMON_PKG}/etc/udev/rules.d
+
+	### copy ini file
+	dh_install -s
+	mkdir -p $(CURDIR)/debian/${COMMON_PKG}/usr/lib/bjlib
+	install -c -m 666 ./com/ini/canon_mfp_net.ini $(CURDIR)/debian/${COMMON_PKG}/usr/lib/bjlib
+
+	### configure/build/install printer depend package
+	@for pkg in ${PRINTER_DEPEND_PKG}; do \
+		model_name=`echo $${pkg} | cut -d- -f2` && \
+		comm_name=`echo $${pkg} | cut -d- -f1` && \
+		model_num=`echo $${pkg} | cut -d- -f3` && \
+		model_dir=$${comm_name}-$${model_name}series && \
+		deb_model_dir=$(CURDIR)/debian/$${model_dir}; \
+		dh_install -s; \
+		mkdir -p $${deb_model_dir}/usr/lib; \
+		install -c -s -m 755 $${model_num}/libs_bin${_arc}/*.so.* $${deb_model_dir}/usr/lib; \
+		mkdir -p $${deb_model_dir}/usr/lib/bjlib; \
+		install -c -m 755 ./$${model_num}/*.tbl ./$${model_num}/*.DAT $${deb_model_dir}/usr/lib/bjlib; \
+	done
+	
+	touch $@
+
+# Build architecture-independent files here.
+binary-indep: build install
+# We have nothing to do by default.
+
+# Build architecture-dependent files here.
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+	dh_installdocs
+	dh_installexamples
+#	dh_install
+#	dh_installmenu
+#	dh_installdebconf	
+#	dh_installlogrotate
+#	dh_installemacsen
+#	dh_installpam
+#	dh_installmime
+#	dh_python
+#	dh_installinit
+#	dh_installcron
+#	dh_installinfo
+	dh_installman
+	dh_link
+	dh_strip
+	dh_compress -X.txt
+	dh_fixperms --exclude=canon_mfp_net.ini
+#	dh_perl
+#	dh_makeshlibs
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure

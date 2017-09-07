@@ -1,0 +1,21 @@
+To build and install scangearmp:
+
+        ./autogen.sh
+        make
+        make install
+
+Appendix:
+
+        * You can also set the following path.
+           --prefix
+                scangearmp                     : default ... /usr/local
+           --enable-libpath
+                *.tbl,*.DAT,...                : default ... /usr/lib
+           --enable-saneconfpath
+                *.conf(ex.canon_mfp.conf)      : default ... /usr/lib/bjlib
+
+       Example:
+
+           ./autogen.sh --enable-libpath=/usr/lib
+           make
+           make install

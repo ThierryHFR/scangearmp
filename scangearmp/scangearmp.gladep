@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-project SYSTEM "http://glade.gnome.org/glade-project-2.0.dtd">
+
+<glade-project>
+  <name>scangearmp</name>
+  <program_name>scangearmp</program_name>
+  <gnome_support>FALSE</gnome_support>
+  <translatable_strings_file>string_header.h</translatable_strings_file>
+</glade-project>

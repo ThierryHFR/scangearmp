@@ -1,0 +1,19 @@
+#!/bin/sh
+
+PRINTER_DEPEND_PKG=scangearmp-mx530-435
+
+model_num=`echo ${PRINTER_DEPEND_PKG} | cut -d- -f3`
+
+if [ -x /sbin/ldconfig ]; then
+	/sbin/ldconfig
+fi
+# remove cncp* libs
+for LIBS in libcncpmsimg libcncpmslld
+do
+	if [ -h /usr/lib/${LIBS}${model_num}.so ]; then
+		rm -f /usr/lib/${LIBS}${model_num}.so
+	fi	
+	if [ -h /usr/lib/${LIBS}${model_num}c.so ]; then
+		rm -f /usr/lib/${LIBS}${model_num}c.so
+	fi	
+done

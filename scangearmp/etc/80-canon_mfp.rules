@@ -1,0 +1,165 @@
+# 80-canon_mfp.rules
+
+ACTION!="add", GOTO="canon_mfp_end"
+SUBSYSTEM=="usb_device", GOTO="canon_mfp_start"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", GOTO="canon_mfp_start"
+GOTO="canon_mfp_end"
+
+LABEL="canon_mfp_start"
+# Canon MP160
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1714", MODE="666"
+# Canon MP510
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1717", MODE="666"
+# Canon MP600
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1718", MODE="666"
+
+# Canon MP140 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="172b", MODE="666"
+# Canon MP210 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1721", MODE="666"
+# Canon MP520 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1724", MODE="666"
+# Canon MP610 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1725", MODE="666"
+
+#MP190 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1734", MODE="666"
+#MP240 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1732", MODE="666"
+#MP540 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1730", MODE="666"
+#MP630 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="172e", MODE="666"
+
+#MX320 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1736", MODE="666"
+#MX330 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1737", MODE="666"
+#MX860 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1735", MODE="666"
+
+#MP250 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="173a", MODE="666"
+#MP270 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="173b", MODE="666"
+#MP490 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="173c", MODE="666"
+#MP550 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="173d", MODE="666"
+#MP560 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="173e", MODE="666"
+#MP640 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="173f", MODE="666"
+
+#MX340 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1741", MODE="666"
+#MX350 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1742", MODE="666"
+#MX870 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1743", MODE="666"
+
+#MP280 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1746", MODE="666"
+#MP495 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1747", MODE="666"
+#MG5100 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1748", MODE="666"
+#MG5200 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1749", MODE="666"
+#MG6100 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="174a", MODE="666"
+#MG8100 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="174b", MODE="666"
+
+#MX360 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="174d", MODE="666"
+#MX410 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="174e", MODE="666"
+#MX420 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="174f", MODE="666"
+#MX880 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1750", MODE="666"
+
+#MG2100 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1751", MODE="666"
+#MG3100 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1752", MODE="666"
+#MG4100 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1753", MODE="666"
+#MG5300 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1754", MODE="666"
+#MG6200 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1755", MODE="666"
+#MG8200 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1756", MODE="666"
+#E500 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1758", MODE="666"
+
+#MX710 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="175d", MODE="666"
+#MX890 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="175e", MODE="666"
+#MX370 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1759", MODE="666"
+#MX430 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="175b", MODE="666"
+#MX510 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="175c", MODE="666"
+#E600 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="175a", MODE="666"
+
+#MP230 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="175f", MODE="666"
+#MG2200 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1760", MODE="666"
+#E510 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1761", MODE="666"
+#MG3200 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1762", MODE="666"
+#MG4200 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1763", MODE="666"
+#MG5400 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1764", MODE="666"
+#MG6300 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1765", MODE="666"
+
+#MX720 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="176a", MODE="666"
+#MX920 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="176b", MODE="666"
+#MX390 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1766", MODE="666"
+#MX450 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1768", MODE="666"
+#MX520 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1769", MODE="666"
+#E610 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1767", MODE="666"
+
+#MG7100 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1772", MODE="666"
+#MG6500 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="176f", MODE="666"
+#MG6400 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1770", MODE="666"
+#MG5500 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1771", MODE="666"
+#MG3500 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="176e", MODE="666"
+#MG2400 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="176c", MODE="666"
+#MG2500 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="176d", MODE="666"
+#P200 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1773", MODE="666"
+
+#MX470 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1774", MODE="666"
+#MX530 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="1775", MODE="666"
+#E560 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="177b", MODE="666"
+#E400 series
+ATTR{idVendor}=="04a9", ATTR{idProduct}=="177a", MODE="666"
+
+LABEL="canon_mfp_end"
